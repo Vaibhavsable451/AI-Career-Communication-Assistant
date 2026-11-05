@@ -1,0 +1,11 @@
+{
+  "command": "python3 -m streamlit run app.py --server.port 9000 --server.address 0.0.0.0 --server.headless true",
+  "stack": "python_3_12",
+  "memory": 512,
+  "env_variables": {
+    "PORT": "9000"
+  },
+  "scripts": {
+    "preserve": "python3 -m pip install -r requirements.txt -t ."
+  }
+}
