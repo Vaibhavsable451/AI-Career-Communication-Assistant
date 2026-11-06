@@ -1,0 +1,9 @@
+{
+  "name": "ai-career-assistant-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"No build step needed for this client\"",
+    "start": "echo \"Client placeholder – AppSail runs the Streamlit app\""
+  }
+}

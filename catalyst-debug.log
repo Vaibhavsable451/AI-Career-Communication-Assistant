@@ -1,0 +1,94 @@
+[debug] [2026-11-06T09:33:24.279Z] : 
+[debug] [2026-11-06T09:33:24.281Z] : ----------------------------------------------------------------------
+[debug] [2026-11-06T09:33:24.281Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js client:setup
+[debug] [2026-11-06T09:33:24.281Z] : CLI Version:  1.29.1
+[debug] [2026-11-06T09:33:24.281Z] : Platform:     win32
+[debug] [2026-11-06T09:33:24.282Z] : Node Version: v22.16.0
+[debug] [2026-11-06T09:33:24.282Z] : Time:         Fri Nov 06 2026 15:03:24 GMT+0530 (India Standard Time)
+[debug] [2026-11-06T09:33:24.282Z] : ----------------------------------------------------------------------
+[debug] [2026-11-06T09:33:24.282Z] : 
+[debug] [2026-11-06T09:33:29.767Z] : > authorizing via signed-in user option
+[debug] [2026-11-06T09:33:29.768Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2026-11-06T09:33:30.118Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/103692000000033001 
+
+[warn] [2026-11-06T09:33:30.195Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2026-11-06T09:33:30.195Z] : API Error while firing request : getaddrinfo ENOTFOUND api.catalyst.zoho.in
+
+[debug] [2026-11-06T09:33:30.196Z] : >>>> RETRYING
+
+[warn] [2026-11-06T09:33:30.203Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2026-11-06T09:33:30.204Z] : API Error while firing request : getaddrinfo ENOTFOUND api.catalyst.zoho.in
+
+[debug] [2026-11-06T09:33:30.204Z] : >>>> RETRYING
+
+[warn] [2026-11-06T09:33:30.210Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2026-11-06T09:33:30.210Z] : API Error while firing request : getaddrinfo ENOTFOUND api.catalyst.zoho.in
+
+[debug] [2026-11-06T09:33:30.210Z] : >>>> RETRYING
+
+[warn] [2026-11-06T09:33:30.218Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2026-11-06T09:33:30.220Z] : × API Error after retrying : getaddrinfo ENOTFOUND api.catalyst.zoho.in
+[debug] [2026-11-06T09:33:30.220Z] : Error Stack: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND api.catalyst.zoho.in
+    at API.<anonymous> (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:41:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:37:12)
+    at API._retry (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:189:16)
+    at API.<anonymous> (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:238:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:41:71
+    at new Promise (<anonymous>)
+[debug] [2026-11-06T09:33:30.221Z] : Original Error: Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.catalyst.zoho.in'
+}
+[debug] [2026-11-06T09:33:30.221Z] : Error Status: 500
+[info] [2026-11-06T09:33:30.221Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2026-11-06T09:33:30.221Z] : × API Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+[debug] [2026-11-06T09:33:30.221Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+    at API.<anonymous> (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:247:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:39:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[debug] [2026-11-06T09:33:30.221Z] : Original Error: Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.catalyst.zoho.in'
+}
+[debug] [2026-11-06T09:33:30.221Z] : Error Status: 500
+[info] [2026-11-06T09:33:30.221Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2026-11-06T09:33:30.221Z] : × API Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+[debug] [2026-11-06T09:33:30.221Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+    at API.<anonymous> (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:247:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:39:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[debug] [2026-11-06T09:33:30.221Z] : Original Error: Error: getaddrinfo ENOTFOUND api.catalyst.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.catalyst.zoho.in'
+}
+[debug] [2026-11-06T09:33:30.221Z] : Error Status: 500
+[info] [2026-11-06T09:33:30.221Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2026-11-06T09:33:30.222Z] : EXEC ENDED with event: Error (Unexpected), message: API Error after retrying : getaddrinfo ENOTFOUND api.catalyst.zoho.in
+[debug] [2026-11-06T09:33:30.222Z] : TOTAL DURATION OF COMMAND EXEC : 500
+[debug] [2026-11-06T09:33:30.226Z] : Unable to initialise the log API
+[debug] [2026-11-06T09:33:30.331Z] : Failed to clear lastError: Error: EPERM: operation not permitted, open 'C:\Users\Vibhav\AppData\Roaming\zcatalyst-cli-nodejs\Config\zcatalyst-cli-v1.json.tmp-39576102316fe740'
+    at openSync (node:fs:562:18)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:33:27)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)
+    at attempt (C:\Users\Vibhav\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\atomically\dist\utils\retryify.js:39:36)

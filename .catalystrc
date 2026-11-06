@@ -1,0 +1,37 @@
+{
+  "defaults": {
+    "project": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "103692000000033001",
+      "name": "priti",
+      "domain": {
+        "id": "50047471890",
+        "name": "priti-60093895115.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60093895115",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "priti",
+            "id": "103692000000033001",
+            "project_type": "Live"
+          },
+          "is_default": false,
+          "action_required": false
+        }
+      ]
+    }
+  ]
+}
