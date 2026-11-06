@@ -1,0 +1,9 @@
+venv
+.venv
+.env
+__pycache__
+*.pyc
+.git
+.gitignore
+ai_projects.zip
+app-config.json
